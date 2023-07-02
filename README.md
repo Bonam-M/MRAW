@@ -1,12 +1,14 @@
 # MRAW
 Mortality Rates prediction based on Access to Water.
 
-<img
+<div style="display: flex; justify-content: center;">
+  <img
   src="healthy_life_with_clean_water.jpg"
   alt="MRAW image"
   title="Optional title"
   width="400" 
   height="400">
+</div>
 
 ## What is MRAW?
 MRAW is an acronym which stands for _Mortality Rates prediction based on Access to Water._ This is an experimental project where I built 4 ML models to predict mortality rates based on the access to clean drinking water in a country. 
