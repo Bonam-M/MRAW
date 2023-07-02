@@ -16,7 +16,7 @@ MRAW is an acronym which stands for _Mortality Rates prediction based on Access 
 The models make predictions for 4 rates: Children under five mortality rate, Adult above 15 mortality rate, Life expectancy at birth and Life expectancy at age 60. 
 
 ## Try it now!
-Open [MRAW WebApp](hhttps://bonam-m-mraw.hf.space) and get some predictions.
+Open [MRAW WebApp](https://bonam-m-mraw.hf.space) and get some predictions.
 
 
 ## How does it work?
