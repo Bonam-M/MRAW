@@ -2,16 +2,10 @@
 Mortality Rates prediction based on Access to Water.
 
 <img
-  src="https://bonam-m.github.io/MRAW/src/healthy_life_with_clean_water.jpg"
-  alt="MRAW image 1"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 200px">
-
-<img
   src="healthy_life_with_clean_water.jpg"
-  alt="MRAW image 2"
+  alt="MRAW image"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto; max-width: 200px">
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
 
 ## What is MRAW?
 MRAW is an acronym which stands for _Mortality Rates prediction based on Access to Water._ This is an experimental project where I built 4 ML models to predict mortality rates based on the access to clean drinking water in a country. 
