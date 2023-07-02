@@ -38,7 +38,7 @@ Make sure to download the models files (see the _.model_ files under the _adult-
 In this repo, you will find the step by step process to clean the datasets and make them machine readable before using them to train the models (see _.ipynb_ files ending with _data-prep_). 
 Make sure to install the required packages listed in the file _requirements.txt_
 
-### Notebook containing the model training and evaluation scripts
+### Notebooks containing the model training and evaluation scripts
 Once the datasets were in good shape and appropriate format, the XGboost models were built and trained, then evaluated to see their performance (see _.ipynb_ files ending with _prediction_).
 To run the Notebooks locally, mmake sure to install the required package: XGboost and all the other packages listed in the file _requirements.txt_
 
