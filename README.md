@@ -15,6 +15,14 @@ MRAW: Mortality Rates prediction based on Access to Water.
 MRAW is an acronym which stands for _Mortality Rates prediction based on Access to Water._ This is an experimental project where I built 4 ML models to predict mortality rates based on the access to clean drinking water in a country. 
 The models make predictions for 4 rates: Children under five mortality rate, Adult above 15 mortality rate, Life expectancy at birth and Life expectancy at age 60. 
 
+## Here is a demo
+<script
+	type="module"
+	src="https://gradio.s3-us-west-2.amazonaws.com/3.35.2/gradio.js"
+></script>
+
+<gradio-app src="https://bonam-m-mraw.hf.space"></gradio-app>
+
 
 ## How does it work?
 The datasets used to train the 4 [XGBoost](https://xgboost.ai/about) models comes from the [WHO Global Health Observatory data repository](https://apps.who.int/gho/data/node.home). Check it out to learn more about how these rates are calculated.  
