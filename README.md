@@ -3,11 +3,11 @@ MRAW: Mortality Rates prediction based on Access to Water.
 
 <div style="text-align: center;">
   <img
-  src="healthy_life_with_clean_water.jpg"
+  src="src/healthy_life_with_clean_water.jpg"
   alt="MRAW image"
   title="Optional title"
-  width="520" 
-  height="400"
+  width="420" 
+  height="300"
   style="margin: 0 auto;">
 </div>
 
