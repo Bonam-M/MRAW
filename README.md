@@ -28,17 +28,17 @@ The datasets includes the percentage of people accessing clean drinking water an
 Here is a description of the content of this repository.
 To run locally, make sure to install the required packages: Python 3.11; Pandas; Numpy; Torch, XGBoost and all the other packages listed in the file _requirements.txt_
 
-### Gradio app for easy interaction with the model
+#### Gradio app for easy interaction with the model
 If you want to quickly interact with the model, locally, simply copy the python file (see _mraw_app.py_) and run it on your machine using VS Code or any other code editor.
 You'll get a web interface supported by [Gradio](https://gradio.app/).  
 
 Make sure to download the models files (see the _.model_ files under the _adult-mort-data_ and _child-mort-data_ folders) and update the path accordingly.
 
-### Notebooks containing the data preparation and visualization scripts
+#### Notebooks containing the data preparation and visualization scripts
 In this repo, you will find the step by step process to clean the datasets and make them machine readable before using them to train the models (see _.ipynb_ files ending with _data-prep_). 
 Make sure to install the required packages listed in the file _requirements.txt_
 
-### Notebooks containing the model training and evaluation scripts
+#### Notebooks containing the model training and evaluation scripts
 Once the datasets were in good shape and appropriate format, the XGboost models were built and trained, then evaluated to see their performance (see _.ipynb_ files ending with _prediction_).
 To run the Notebooks locally, mmake sure to install the required package: XGboost and all the other packages listed in the file _requirements.txt_
 
