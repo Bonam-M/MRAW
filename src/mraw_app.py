@@ -21,11 +21,13 @@ loaded_model_birth.load_model(birth_model_path)
 loaded_model_sixty.load_model(sixty_model_path)
 
 # Read the markdown file for description
-with open("mraw_description.md", "r") as file:
+mraw_description = os.path.join(script_dir, "mraw_description.md")
+with open(mraw_description, "r") as file:
     description_markdown = file.read()
 
 # Read the markdown file for article
-with open("mraw_article.md", "r") as file:
+mraw_article = os.path.join(script_dir, "mraw_article.md")
+with open(mraw_article, "r") as file:
     article_markdown = file.read()
 
 # Convert markdown content to HTML for description
@@ -71,7 +73,8 @@ col1, col2, col3 = st.columns(3)
 with col1:
      st.write(" ")
 with col2:
-     st.image("drinking_water.jpg", width= 125)
+     water_picture = os.path.join(script_dir, "drinking_water.jpg")
+     st.image(water_picture, width= 125)
 with col3:
      st.write(" ")
 
