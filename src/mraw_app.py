@@ -2,19 +2,23 @@ import streamlit as st
 import xgboost as xgb
 import numpy as np
 import markdown
-import base64
-from pathlib import Path
-from PIL import Image 
+import os
 
 # Load the saved models
 loaded_model_child = xgb.XGBRegressor()
 loaded_model_adult = xgb.XGBRegressor()
 loaded_model_birth = xgb.XGBRegressor()
 loaded_model_sixty = xgb.XGBRegressor()
-loaded_model_child.load_model("xgb_child_mort.model")
-loaded_model_adult.load_model("xgb_adult_mort.model")
-loaded_model_birth.load_model("xgb_life_expect_birth.model")
-loaded_model_sixty.load_model("xgb_life_expect_sixty.model")
+script_dir = os.path.dirname(os.path.abspath(__file__))
+child_model_path = os.path.join(script_dir, "xgb_child_mort.model")
+adult_model_path = os.path.join(script_dir, "xgb_adult_mort.model")
+birth_model_path = os.path.join(script_dir, "xgb_life_expect_birth.model")
+sixty_model_path = os.path.join(script_dir, "xgb_life_expect_sixty.model")
+
+loaded_model_child.load_model(child_model_path)
+loaded_model_adult.load_model(adult_model_path)
+loaded_model_birth.load_model(birth_model_path)
+loaded_model_sixty.load_model(sixty_model_path)
 
 # Read the markdown file for description
 with open("mraw_description.md", "r") as file:
