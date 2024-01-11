@@ -16,7 +16,7 @@ MRAW is an acronym that stands for _Mortality Rates prediction based on Access t
 The models make predictions for 4 rates: Children under-five mortality rate, Adults above 15 mortality rate, Life expectancy at birth, and Life expectancy at age 60. 
 
 ## Try it now!
-Open [MRAW WebApp](https://bonam-m-mraw.hf.space) and get some predictions.
+Open [MRAW WebApp](https://app-mraw.streamlit.app/) and get some predictions.
 
 
 ## How does it work?
@@ -29,8 +29,8 @@ Here is a description of the content of this repository.
 To run locally, make sure to install the required packages: Python 3.11; Pandas; Numpy; Torch, XGBoost, and all the other packages listed in the file _requirements.txt_
 
 #### Gradio app for easy interaction with the model
-If you want to quickly interact with the model, locally, simply copy the Python file (see _mraw_app.py_) and run it on your machine using VS Code or any other code editor.
-You'll get a web interface supported by [Gradio](https://gradio.app/).  
+If you want to quickly interact with the model, locally, simply copy the Python files in the _src_ folder and run the app file (see _mraw_app.py_) it on your machine using VS Code or any other code editor.
+You'll get a web interface supported by [Streamlit](https://streamlit.io/).  
 
 Make sure to download the models files (see the _.model_ files under the _adult-mort-data_ and _child-mort-data_ folders) and update the path accordingly.
 
