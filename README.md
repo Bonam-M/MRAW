@@ -28,7 +28,7 @@ The datasets include the percentage of people accessing clean drinking water and
 Here is a description of the content of this repository.
 To run locally, make sure to install the required packages: Python 3.11; Pandas; Numpy; Torch, XGBoost, and all the other packages listed in the file _requirements.txt_
 
-#### Gradio app for easy interaction with the model
+#### Streamlit app for easy interaction with the model
 If you want to quickly interact with the model, locally, simply copy the Python files in the _src_ folder and run the app file (see _mraw_app.py_) it on your machine using VS Code or any other code editor.
 You'll get a web interface supported by [Streamlit](https://streamlit.io/).  
 
